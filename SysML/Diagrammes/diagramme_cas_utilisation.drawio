@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Diagramme de cas d&#39;utilisation" id="0">
-    <mxGraphModel dx="1414" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1704" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="sys" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;verticalAlign=top;spacingTop=10;" value="Serre automatisée" vertex="1">
-          <mxGeometry height="650" width="650" x="270" y="50" as="geometry" />
+          <mxGeometry height="740" width="650" x="270" y="50" as="geometry" />
         </mxCell>
         <mxCell id="a1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Propriétaire" vertex="1">
           <mxGeometry height="100" width="50" x="80" y="270" as="geometry" />
@@ -78,6 +78,9 @@
         </mxCell>
         <mxCell id="e12" edge="1" parent="1" source="u6" style="dashed=1;endArrow=open;html=1;" target="u8" value="&lt;&lt;include&gt;&gt;">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d1f5UGr7N1ScdZ6C2D7f-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Agent de&amp;nbsp;&lt;div&gt;maintenance&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="50" x="80" y="560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
