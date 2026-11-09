@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Diagramme de cas d&#39;utilisation" id="0">
+    <mxGraphModel dx="1414" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sys" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;verticalAlign=top;spacingTop=10;" value="Serre automatisée" vertex="1">
+          <mxGeometry height="650" width="650" x="270" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Propriétaire" vertex="1">
+          <mxGeometry height="100" width="50" x="80" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Capteur de&#xa;température" vertex="1">
+          <mxGeometry height="100" width="70" x="1010" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Capteur&#xa;d&#39;humidité" vertex="1">
+          <mxGeometry height="100" width="70" x="1010" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="u1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Gérer l&#39;éclairage" vertex="1">
+          <mxGeometry height="65" width="190" x="350" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="u2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Programmer la durée&#xa;d&#39;éclairage" vertex="1">
+          <mxGeometry height="65" width="210" x="650" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="u3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Contrôler la température" vertex="1">
+          <mxGeometry height="65" width="210" x="350" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="u4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Mesurer la température" vertex="1">
+          <mxGeometry height="65" width="210" x="650" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="u5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Afficher la température" vertex="1">
+          <mxGeometry height="65" width="210" x="490" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="u6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Contrôler l&#39;humidité du sol" vertex="1">
+          <mxGeometry height="65" width="220" x="350" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="u7" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Mesurer le taux d&#39;humidité" vertex="1">
+          <mxGeometry height="65" width="220" x="650" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="u8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Gérer l&#39;arrosage" vertex="1">
+          <mxGeometry height="65" width="210" x="490" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="u9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Optimiser la consommation&#xa;d&#39;énergie et d&#39;eau" vertex="1">
+          <mxGeometry height="65" width="230" x="430" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="a1" style="endArrow=none;html=1;" target="u1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="a1" style="endArrow=none;html=1;" target="u3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="a1" style="endArrow=none;html=1;" target="u5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="a1" style="endArrow=none;html=1;" target="u6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="a1" style="endArrow=none;html=1;" target="u9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="a2" style="endArrow=none;html=1;" target="u4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="a3" style="endArrow=none;html=1;" target="u7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="u1" style="dashed=1;endArrow=open;html=1;" target="u2" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="u3" style="dashed=1;endArrow=open;html=1;" target="u4" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="u3" style="dashed=1;endArrow=open;html=1;" target="u5" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="u6" style="dashed=1;endArrow=open;html=1;" target="u7" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="u6" style="dashed=1;endArrow=open;html=1;" target="u8" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
