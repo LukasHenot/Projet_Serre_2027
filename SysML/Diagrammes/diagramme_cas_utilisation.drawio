@@ -7,14 +7,8 @@
         <mxCell id="sys" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;verticalAlign=top;spacingTop=10;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;include&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;include&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;include&lt;/div&gt;" vertex="1">
           <mxGeometry height="740" width="650" x="270" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="a1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Propriétaire" vertex="1">
+        <mxCell id="a1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Propriétaire/&lt;div&gt;agent de maintenance&amp;nbsp;&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="50" x="80" y="270" as="geometry" />
-        </mxCell>
-        <mxCell id="a2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Capteur de&#xa;température" vertex="1">
-          <mxGeometry height="100" width="70" x="1010" y="180" as="geometry" />
-        </mxCell>
-        <mxCell id="a3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Capteur&#xa;d&#39;humidité" vertex="1">
-          <mxGeometry height="100" width="70" x="1010" y="490" as="geometry" />
         </mxCell>
         <mxCell id="u1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Gérer l&#39;éclairage" vertex="1">
           <mxGeometry height="65" width="190" x="350" y="100" as="geometry" />
@@ -58,11 +52,15 @@
         <mxCell id="e5" edge="1" parent="1" source="a1" style="endArrow=none;html=1;" target="u9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e6" edge="1" parent="1" source="a2" style="endArrow=none;html=1;" target="u4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e6" edge="1" parent="1" source="I4glbDKb4gX9sReKLhB2-1" style="endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="u4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="232.748248" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="e7" edge="1" parent="1" source="a3" style="endArrow=none;html=1;" target="u7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e7" edge="1" parent="1" source="I4glbDKb4gX9sReKLhB2-3" style="endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="u7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="531.6839559999999" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="e8" edge="1" parent="1" source="u1" style="dashed=1;endArrow=open;html=1;" target="u2" value="&lt;&lt;include&gt;&gt;">
           <mxGeometry relative="1" as="geometry" />
@@ -84,6 +82,42 @@
         </mxCell>
         <mxCell id="MPCuxkl3QkAUi-XMEPCY-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="include" vertex="1">
           <mxGeometry height="30" width="60" x="515" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="I4glbDKb4gX9sReKLhB2-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="990" y="212.5" as="geometry" />
+        </mxCell>
+        <mxCell id="I4glbDKb4gX9sReKLhB2-3" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="1000" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="I4glbDKb4gX9sReKLhB2-4" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="990" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="I4glbDKb4gX9sReKLhB2-6" edge="1" parent="1" source="u2" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="I4glbDKb4gX9sReKLhB2-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="950" y="330" as="sourcePoint" />
+            <mxPoint x="960" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I4glbDKb4gX9sReKLhB2-7" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="980" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="I4glbDKb4gX9sReKLhB2-9" edge="1" parent="1" source="u5" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="I4glbDKb4gX9sReKLhB2-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="820" y="370" as="sourcePoint" />
+            <mxPoint x="870" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I4glbDKb4gX9sReKLhB2-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Capteur&amp;nbsp;&lt;div&gt;luminositée&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1000" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="I4glbDKb4gX9sReKLhB2-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Capteur&amp;nbsp;&lt;div&gt;température&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1000" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="I4glbDKb4gX9sReKLhB2-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="écran" vertex="1">
+          <mxGeometry height="30" width="60" x="990" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="I4glbDKb4gX9sReKLhB2-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Capteur&amp;nbsp;&lt;div&gt;d&#39;humiditée&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1010" y="570" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
