@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="chaine-serre" name="Chaîne fonctionnelle">
+    <mxGraphModel dx="1911" dy="985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=23;fontStyle=1;fontColor=#243447;" value="CHAÎNE FONCTIONNELLE — SERRE AUTOMATISÉE" vertex="1">
+          <mxGeometry height="45" width="1200" x="100" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="st" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=13;fontColor=#526579;" value="Acquérir les informations • Traiter • Commander • Agir" vertex="1">
+          <mxGeometry height="25" width="1200" x="100" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="sensors" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F1FA;strokeColor=#6C8EBF;strokeWidth=2;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" value="&lt;b&gt;ACQUÉRIR LES INFORMATIONS&lt;/b&gt;&lt;br&gt;&lt;br&gt;Capteur de température&lt;br&gt;Capteur d’humidité du sol&lt;br&gt;Horloge / programmation" vertex="1">
+          <mxGeometry height="125" width="580" x="410" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="controller" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EAF8;strokeColor=#9673A6;strokeWidth=2;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" value="&lt;b&gt;TRAITER LES INFORMATIONS&lt;/b&gt;&lt;br&gt;&lt;br&gt;Carte de commande / système programmable&lt;br&gt;Compare les mesures aux consignes&lt;br&gt;Détermine les actions à réaliser" vertex="1">
+          <mxGeometry height="140" width="580" x="410" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="orders" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCEEDC;strokeColor=#D6A45D;strokeWidth=2;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" value="&lt;b&gt;COMMANDER LES ACTIONNEURS&lt;/b&gt;&lt;br&gt;&lt;br&gt;Envoie les ordres aux équipements de la serre" vertex="1">
+          <mxGeometry height="95" width="580" x="410" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="lighting" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7E8;strokeColor=#D6A45D;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;ÉCLAIRER&lt;/b&gt;&lt;br&gt;&lt;br&gt;Lampe / LED horticole&lt;br&gt;Durée minimale quotidienne" vertex="1">
+          <mxGeometry height="130" width="285" x="55" y="685" as="geometry" />
+        </mxCell>
+        <mxCell id="climate" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7E8;strokeColor=#D6A45D;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;RÉGULER LA TEMPÉRATURE&lt;/b&gt;&lt;br&gt;&lt;br&gt;Chauffage et/ou ventilation&lt;br&gt;Plage favorable à la croissance" vertex="1">
+          <mxGeometry height="130" width="285" x="365" y="685" as="geometry" />
+        </mxCell>
+        <mxCell id="watering" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7E8;strokeColor=#D6A45D;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;GÉRER L’ARROSAGE&lt;/b&gt;&lt;br&gt;&lt;br&gt;Pompe / électrovanne&lt;br&gt;Selon l’humidité du sol" vertex="1">
+          <mxGeometry height="130" width="285" x="675" y="685" as="geometry" />
+        </mxCell>
+        <mxCell id="display" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7E8;strokeColor=#D6A45D;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;AFFICHER LA TEMPÉRATURE&lt;/b&gt;&lt;br&gt;&lt;br&gt;Écran / afficheur&lt;br&gt;Visualisation permanente" vertex="1">
+          <mxGeometry height="130" width="330" x="985" y="685" as="geometry" />
+        </mxCell>
+        <mxCell id="result" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7F3E8;strokeColor=#82B366;strokeWidth=2;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" value="&lt;b&gt;RÉSULTAT ATTENDU&lt;/b&gt;&lt;br&gt;&lt;br&gt;Conditions favorables à la croissance des légumes&lt;br&gt;Surveillance réduite • Consommations d’eau et d’électricité maîtrisées" vertex="1">
+          <mxGeometry height="90" width="860" x="270" y="875" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="sensors" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#526579;" target="controller" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="controller" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#526579;" target="orders" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="orders" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#526579;" target="lighting" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="orders" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#526579;" target="climate" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="orders" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#526579;" target="watering" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="orders" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#526579;" target="display" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="lighting" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#526579;" target="result" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="climate" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#526579;" target="result" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="watering" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#526579;" target="result" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="display" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#526579;" target="result" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
