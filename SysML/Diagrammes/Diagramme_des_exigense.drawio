@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Diagramme des exigences" id="kdEdd_C3cyhD3GtGfK6U">
+    <mxGraphModel dx="1704" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CiizlUjesH1jIlignKzy-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;verticalAlign=top;spacingLeft=6;spacingRight=6;fillColor=#ffdcd2;gradientColor=#f0a090;strokeColor=#b85450;" value="&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;br&gt;Serre Intelligente" vertex="1">
+          <mxGeometry height="55" width="220" x="685" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CiizlUjesH1jIlignKzy-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;verticalAlign=top;spacingLeft=6;spacingRight=6;fillColor=#fff2cc;gradientColor=#ffd37a;strokeColor=#d6b656;" value="&amp;lt;&amp;lt;functionalRequirement&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;GererEclairage&lt;/b&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;text-align:left&quot;&gt;id=&quot;1&quot;&lt;br&gt;source=&quot;Propriétaire&quot;&lt;br&gt;text=&quot;Le système doit permettre de gérer l&#39;éclairage.&quot;&lt;br&gt;verifyMethod=&quot;Test&quot;&lt;br&gt;risk=&quot;Low&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="175" width="220" x="60" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="CiizlUjesH1jIlignKzy-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;verticalAlign=top;spacingLeft=6;spacingRight=6;fillColor=#fff2cc;gradientColor=#ffd37a;strokeColor=#d6b656;" value="&amp;lt;&amp;lt;functionalRequirement&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;ControlerTemperature&lt;/b&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;text-align:left&quot;&gt;id=&quot;2&quot;&lt;br&gt;source=&quot;Propriétaire&quot;&lt;br&gt;text=&quot;Le système doit permettre de contrôler la température.&quot;&lt;br&gt;verifyMethod=&quot;Test&quot;&lt;br&gt;risk=&quot;Medium&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="175" width="220" x="435" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="CiizlUjesH1jIlignKzy-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;verticalAlign=top;spacingLeft=6;spacingRight=6;fillColor=#fff2cc;gradientColor=#ffd37a;strokeColor=#d6b656;" value="&amp;lt;&amp;lt;functionalRequirement&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;ControlerHumiditeSol&lt;/b&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;text-align:left&quot;&gt;id=&quot;3&quot;&lt;br&gt;source=&quot;Propriétaire&quot;&lt;br&gt;text=&quot;Le système doit permettre de contrôler l&#39;humidité du sol.&quot;&lt;br&gt;verifyMethod=&quot;Test&quot;&lt;br&gt;risk=&quot;High&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="175" width="220" x="935" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="CiizlUjesH1jIlignKzy-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;verticalAlign=top;spacingLeft=6;spacingRight=6;fillColor=#c3fae8;gradientColor=#8ee6cc;strokeColor=#4fb59a;" value="&amp;lt;&amp;lt;performanceRequirement&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;OptimiserEnergieEau&lt;/b&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;text-align:left&quot;&gt;id=&quot;4&quot;&lt;br&gt;source=&quot;Propriétaire&quot;&lt;br&gt;text=&quot;Le système doit optimiser la consommation d&#39;énergie et d&#39;eau.&quot;&lt;br&gt;verifyMethod=&quot;Analysis&quot;&lt;br&gt;risk=&quot;High&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="175" width="220" x="1310" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="CiizlUjesH1jIlignKzy-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;verticalAlign=top;spacingLeft=6;spacingRight=6;fillColor=#fff2cc;gradientColor=#ffd37a;strokeColor=#d6b656;" value="&amp;lt;&amp;lt;functionalRequirement&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;ProgrammerDureeEclairage&lt;/b&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;text-align:left&quot;&gt;id=&quot;1.1&quot;&lt;br&gt;source=&quot;Propriétaire&quot;&lt;br&gt;text=&quot;Le système doit permettre de programmer la durée d&#39;éclairage.&quot;&lt;br&gt;verifyMethod=&quot;Test&quot;&lt;br&gt;risk=&quot;Low&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="175" width="220" x="60" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="CiizlUjesH1jIlignKzy-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;verticalAlign=top;spacingLeft=6;spacingRight=6;fillColor=#fff2cc;gradientColor=#ffd37a;strokeColor=#d6b656;" value="&amp;lt;&amp;lt;functionalRequirement&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;MesurerTemperature&lt;/b&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;text-align:left&quot;&gt;id=&quot;2.1&quot;&lt;br&gt;source=&quot;Propriétaire&quot;&lt;br&gt;text=&quot;Le système doit mesurer la température via le capteur de température.&quot;&lt;br&gt;verifyMethod=&quot;Test&quot;&lt;br&gt;risk=&quot;Medium&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="175" width="220" x="310" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="CiizlUjesH1jIlignKzy-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;verticalAlign=top;spacingLeft=6;spacingRight=6;fillColor=#fff2cc;gradientColor=#ffd37a;strokeColor=#d6b656;" value="&amp;lt;&amp;lt;functionalRequirement&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;AfficherTemperature&lt;/b&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;text-align:left&quot;&gt;id=&quot;2.2&quot;&lt;br&gt;source=&quot;Propriétaire&quot;&lt;br&gt;text=&quot;Le système doit afficher la température au propriétaire.&quot;&lt;br&gt;verifyMethod=&quot;Demonstration&quot;&lt;br&gt;risk=&quot;Low&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="175" width="220" x="560" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="CiizlUjesH1jIlignKzy-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;verticalAlign=top;spacingLeft=6;spacingRight=6;fillColor=#fff2cc;gradientColor=#ffd37a;strokeColor=#d6b656;" value="&amp;lt;&amp;lt;functionalRequirement&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;MesurerTauxHumidite&lt;/b&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;text-align:left&quot;&gt;id=&quot;3.1&quot;&lt;br&gt;source=&quot;Propriétaire&quot;&lt;br&gt;text=&quot;Le système doit mesurer le taux d&#39;humidité via le capteur d&#39;humidité.&quot;&lt;br&gt;verifyMethod=&quot;Test&quot;&lt;br&gt;risk=&quot;Medium&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="175" width="220" x="810" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="CiizlUjesH1jIlignKzy-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;verticalAlign=top;spacingLeft=6;spacingRight=6;fillColor=#fff2cc;gradientColor=#ffd37a;strokeColor=#d6b656;" value="&amp;lt;&amp;lt;functionalRequirement&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;GererArrosage&lt;/b&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;text-align:left&quot;&gt;id=&quot;3.2&quot;&lt;br&gt;source=&quot;Propriétaire&quot;&lt;br&gt;text=&quot;Le système doit gérer l&#39;arrosage selon l&#39;humidité du sol.&quot;&lt;br&gt;verifyMethod=&quot;Test&quot;&lt;br&gt;risk=&quot;High&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="175" width="220" x="1060" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="CiizlUjesH1jIlignKzy-22" edge="1" parent="1" source="CiizlUjesH1jIlignKzy-11" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.473;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;" target="CiizlUjesH1jIlignKzy-4" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.1674" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="400" />
+              <mxPoint x="539.06" y="400" />
+            </Array>
+            <mxPoint x="510" y="440" as="sourcePoint" />
+            <mxPoint x="510" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CiizlUjesH1jIlignKzy-23" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CiizlUjesH1jIlignKzy-12" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.2704" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="400" />
+            </Array>
+            <mxPoint x="540" y="400" as="sourcePoint" />
+            <mxPoint x="680" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CiizlUjesH1jIlignKzy-24" edge="1" parent="1" source="CiizlUjesH1jIlignKzy-10" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="CiizlUjesH1jIlignKzy-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="170" y="440" as="sourcePoint" />
+            <mxPoint x="220" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CiizlUjesH1jIlignKzy-25" edge="1" parent="1" source="CiizlUjesH1jIlignKzy-13" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="CiizlUjesH1jIlignKzy-6" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.2366" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="400" />
+              <mxPoint x="1045" y="400" />
+            </Array>
+            <mxPoint x="960" y="450" as="sourcePoint" />
+            <mxPoint x="1010" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CiizlUjesH1jIlignKzy-26" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CiizlUjesH1jIlignKzy-14" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.1829" as="geometry">
+            <Array as="points">
+              <mxPoint x="1170" y="400" />
+            </Array>
+            <mxPoint x="1040" y="400" as="sourcePoint" />
+            <mxPoint x="1200" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CiizlUjesH1jIlignKzy-27" edge="1" parent="1" source="CiizlUjesH1jIlignKzy-6" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.541;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="CiizlUjesH1jIlignKzy-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1054.02" y="140" />
+              <mxPoint x="795" y="140" />
+            </Array>
+            <mxPoint x="750" y="210" as="sourcePoint" />
+            <mxPoint x="800" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CiizlUjesH1jIlignKzy-28" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CiizlUjesH1jIlignKzy-8" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.1055" as="geometry">
+            <Array as="points">
+              <mxPoint x="1420" y="140" />
+            </Array>
+            <mxPoint x="1040" y="140" as="sourcePoint" />
+            <mxPoint x="1430" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CiizlUjesH1jIlignKzy-29" edge="1" parent="1" source="CiizlUjesH1jIlignKzy-4" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.0148" as="geometry">
+            <Array as="points">
+              <mxPoint x="545" y="140" />
+            </Array>
+            <mxPoint x="540" y="180" as="sourcePoint" />
+            <mxPoint x="800" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CiizlUjesH1jIlignKzy-30" edge="1" parent="1" source="CiizlUjesH1jIlignKzy-2" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0424" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="140" />
+            </Array>
+            <mxPoint x="260" y="160" as="sourcePoint" />
+            <mxPoint x="550" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
